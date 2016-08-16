@@ -245,6 +245,9 @@ a:focus {
     color: black;
     font-size: 1.5rem;
   }
+  #footer .feed {
+    padding: 10px 5px;
+  }
 }
 header {
   position: relative;
