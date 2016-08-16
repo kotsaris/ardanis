@@ -41,10 +41,12 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #F05F40;
+  color: white;
 }
 a:hover,
 a:focus {
   color: #eb3812;
+  color: white;
 }
 h1,
 h2,
@@ -211,6 +213,11 @@ a:focus {
   #services {
     margin-top: -100px;
   }
+  #footer p,
+  #footer address {
+    padding: 0 15px;
+    font-size: 1.5rem;
+  }
   #services .container-fluid,
   #footer .container-fluid {
     width: 60%;
@@ -218,6 +225,25 @@ a:focus {
   #services .summary-text {
     text-align: center;
     padding: 20px 50px 50px 50px;
+  }
+  #footer .container-fluid {
+    height: 300px;
+  }
+  #footer .logo {
+    padding: 15px;
+    text-align: center;
+  }
+  #footer .logo-text {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #25BECD;
+  }
+  #footer .logo-image {
+    size: 4rem 4rem;
+  }
+  #footer a {
+    color: black;
+    font-size: 1.5rem;
   }
 }
 header {
@@ -319,17 +345,16 @@ header .header-content .header-content-inner p {
     text-align: left;
     padding: 0px 5px;
   }
-  .text-link,
-  .text-link:hover,
-  .text-link:active,
-  .text-link:focus {
-    color: white;
+  .text-logo-link,
+  .text-logo-link:hover,
+  .text-logo-link:active,
+  .text-logo-link:focus {
     font-family: 'unisansthinregular';
     font-weight: 300;
     text-decoration:none;
     cursor:pointer;
   }
-  .text-link:after {
+  .text-logo-link:after {
     background-image: url('../img/ardanis-symbol-small.png');
     background-repeat: no-repeat;
     background-size: contain;
