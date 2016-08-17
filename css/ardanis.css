@@ -235,7 +235,7 @@ a:focus {
   }
   #footer .logo-text {
     font-size: 3rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #25BECD;
   }
   #footer .logo-image {
@@ -245,8 +245,15 @@ a:focus {
     color: black;
     font-size: 1.5rem;
   }
+  #footer .legal {
+    font-size: 1rem;
+    text-align: justify;
+  }
   #footer .feed {
     padding: 10px 5px;
+  }
+  #footer .feed #twitter-widget-0 {
+    min-width: 180px !important;
   }
 }
 header {
