@@ -252,8 +252,17 @@ a:focus {
   #footer .feed {
     padding: 10px 5px;
   }
-  #footer .feed #twitter-widget-0 {
+  #footer .feed [id^="twitter-widget-"] {
     min-width: 180px !important;
+  }
+  #footer .social-logo {
+    display: inline-block;
+    padding: 2px;
+  }
+  #footer .social-logo img{
+    height: 30px;
+    width: auto;
+    overflow-x: hidden;
   }
 }
 header {
