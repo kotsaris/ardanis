@@ -226,7 +226,7 @@ a:focus {
   }
   #footer .feed {
     text-align: center;
-    padding: 10px 5px;
+    padding: 10px 5px !important;
   }
 }
 header {
