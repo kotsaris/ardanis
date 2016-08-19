@@ -241,6 +241,7 @@ header {
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
+  margin-top: -70px;
 }
 header .header-content {
   position: relative;
@@ -298,7 +299,6 @@ header .header-content .header-content-inner p {
 @media (min-width: 768px) {
   header {
     height: 500px;
-    margin-top: -70px;
   }
   header .header-content {
     position: absolute;
@@ -580,7 +580,8 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 #footer p,
-#footer address {
+#footer address,
+#footer .links {
   padding: 0 15px;
   font-size: 1.5rem;
 }
@@ -619,4 +620,12 @@ body {
   height: 30px;
   width: auto;
   overflow-x: hidden;
+}
+#footer ul {
+  padding: 0px 5px;
+  list-style-type: none;
+  text-align: left;
+}
+#footer ul li a {
+  color: #4CB73B;
 }
