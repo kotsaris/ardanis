@@ -127,6 +127,15 @@ aside {
 a:focus {
   text-decoration: none;
 }
+@media (min-width: 1050px) {
+  .navbar .container-fluid {
+    width: 60%;
+  }
+  #services .container-fluid,
+  #footer .container-fluid {
+    width: 60%;
+  }
+}
 @media (min-width: 768px) {
   .navbar {
     border: none;
@@ -134,7 +143,6 @@ a:focus {
 
   .navbar .container-fluid {
     padding: 0px;
-    width: 60%;
     margin: 0 auto;
   }
 
@@ -212,10 +220,6 @@ a:focus {
   }
   #services {
     margin-top: -100px;
-  }
-  #services .container-fluid,
-  #footer .container-fluid {
-    width: 60%;
   }
   #services .summary-text {
     text-align: center;
