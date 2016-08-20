@@ -379,7 +379,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
-  opacity: 0;
+  opacity: 1;
   display: block;
   position: absolute;
   bottom: 0;
@@ -434,13 +434,16 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-.portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-}
 .portfolio-box:focus {
   outline: none;
 }
 @media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption {
+    opacity: 0;
+  }
+  .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+  }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
@@ -600,6 +603,7 @@ body {
 }
 #footer .logo-image {
   size: 4rem 4rem;
+  max-height: 100%;
 }
 #footer a {
   color: black;
