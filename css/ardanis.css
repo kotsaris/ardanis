@@ -242,10 +242,18 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
   margin-top: -70px;
+}
+body#homepage header {
+  background-image: url('../img/header.jpg');
+}
+body#internal header {
+  background-image: url('../img/internal_banner.jpg');
+}
+body#internal2 header {
+  background-image: url('../img/internal-2_banner.jpg');
 }
 header .header-content {
   position: relative;
@@ -403,20 +411,25 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-title .portfolio-box-title-focus {
   font-family: 'unisansbookregular';
 }
-.portfolio-box.vision .portfolio-box-caption,
-.portfolio-box.vision .portfolio-box-title {
+.popup-gallery>div:nth-of-type(4n+1) .portfolio-box .portfolio-box-caption,
+.popup-gallery>div:nth-of-type(4n+1) .portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(76, 183, 59, 0.7);
 }
-.portfolio-box.productivity .portfolio-box-caption,
-.portfolio-box.productivity .portfolio-box-title {
+.popup-gallery>div:nth-of-type(4n+2) .portfolio-box .portfolio-box-caption,
+.popup-gallery>div:nth-of-type(4n+2) .portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(26, 109, 149, 0.8);
 }
-.portfolio-box.team .portfolio-box-caption,
-.portfolio-box.team .portfolio-box-title {
+.popup-gallery>div:nth-of-type(4n+3) .portfolio-box .portfolio-box-caption,
+.popup-gallery>div:nth-of-type(4n+3) .portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(13, 165, 225, 0.8);
+}
+.popup-gallery>div:nth-of-type(4n+4) .portfolio-box .portfolio-box-caption,
+.popup-gallery>div:nth-of-type(4n+4) .portfolio-box .portfolio-box-title {
+  color: white;
+  background: rgba(76, 183, 59, 0.7);
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
