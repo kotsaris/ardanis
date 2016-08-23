@@ -132,7 +132,7 @@ a:focus {
   #services .container-fluid,
   #footer .container-fluid {
     width: 60%;
-    min-width: 750px;
+    min-width: 830px;
   }
 }
 @media (min-width: 768px) {
@@ -213,10 +213,6 @@ a:focus {
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
-  }
-  .img-responsive {
-    width: auto;
-    vertical-align: text-top;
   }
   #services {
     margin-top: -100px;
@@ -608,7 +604,7 @@ body {
   font-size: 1.5rem;
 }
 #footer .row>div {
-  height: 400px;
+  height: 500px;
   margin-top: 10px;
 }
 #footer .logo {
@@ -658,4 +654,20 @@ body {
 }
 #footer ul li a {
   color: #4CB73B;
+}
+.portfolio-box-image {
+  height: 50%;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: none;
+  background-image: url('../img/camera-lens.jpg');
+}
+.portfolio-box-image.vision {
+  background-image: url('../img/camera-lens.jpg');
+}
+.portfolio-box-image.productivity {
+  background-image: url('../img/relay-runner.jpg');
+}
+.portfolio-box-image.team {
+  background-image: url('../img/snow.jpg');
 }
