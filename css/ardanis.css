@@ -128,12 +128,11 @@ a:focus {
   text-decoration: none;
 }
 @media (min-width: 1050px) {
-  .navbar .container-fluid {
-    width: 60%;
-  }
+  .navbar .container-fluid,
   #services .container-fluid,
   #footer .container-fluid {
     width: 60%;
+    min-width: 750px;
   }
 }
 @media (min-width: 768px) {
