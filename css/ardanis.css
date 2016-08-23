@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'unisansthinregular';
+  font-family: 'unisansbookregular';
 }
 p {
   font-size: 16px;
@@ -216,7 +216,8 @@ a:focus {
     color: #F05F40;
   }
   .img-responsive {
-    width: 100%
+    width: auto;
+    vertical-align: text-top;
   }
   #services {
     margin-top: -100px;
@@ -230,7 +231,7 @@ a:focus {
   }
   #footer .feed {
     text-align: center;
-    padding: 10px 5px !important;
+    padding: 0px 5px !important;
   }
 }
 header {
