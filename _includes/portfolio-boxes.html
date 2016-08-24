@@ -1,18 +1,21 @@
-<section class="no-padding" id="services">
+<section class="no-padding portfolio-box-section" id="{{ include.id }}">
     <div class="container-fluid">
+        {{ include.before-boxes }}
         <div class="row no-gutter popup-gallery">
-            {% for portfolio-box in portfolio-box-data %}
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <a href="services.html" class="portfolio-box">
-                    <div class="portfolio-box-title">{{ portfolio-box.tagline }} </div>
-                    <div class="portfolio-box-image {{ portfolio-box.portfolio-box-image-class }} "></div>
+            {% assign box-count = include.portfolio-box-data | size %}
+            {% assign box-col-count =  12 | divided_by: box-count %}
+            {% for portfolio-box in include.portfolio-box-data %}
+            <div class="col-lg-{{ box-col-count }} col-md-{{ box-col-count }} col-sm-{{ box-col-count }}">
+                <a href="{{ portfolio-box.destinatio }}" class="portfolio-box">
+                    <div class="portfolio-box-title">{{ portfolio-box.tagline }}</div>
+                    <div class="portfolio-box-image {{ portfolio-box.portfolio-box-image-class }}"></div>
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-name">
-                              Need to build or improve a software solution?
+                                {{ portfolio-box.portfolio-box-content-title }}
                             </div>
                             <div class="project-category text-faded">
-                                find out more...
+                                {{ portfolio-box.portfolio-box-content-text }}
                             </div>
                         </div>
                     </div>
@@ -20,6 +23,6 @@
             </div>
             {% endfor %}
         </div>
-        <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        {{ include.after-boxes }}
     </div>
 </section>

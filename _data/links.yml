@@ -1,0 +1,10 @@
+- name: services
+  destination: services.html
+- name: about us
+  destination: about.html
+- name: meet the team
+  destination: team.html
+- name: projects
+  destination: projects.html
+- name: contact
+  destination: contact.html

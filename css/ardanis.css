@@ -131,7 +131,7 @@ a:focus {
 }
 @media (min-width: 1050px) {
   .navbar .container-fluid,
-  #services .container-fluid,
+  .portfolio-box-section .container-fluid,
   #footer .container-fluid {
     width: 60%;
     min-width: 830px;
@@ -245,17 +245,14 @@ header {
   color: white;
   margin-top: -70px;
 }
-body#homepage header {
-  background-image: url('../img/header.jpg');
+body header.cars-in-tunnel {
+  background-image: url('../img/header-backgrounds/cars-in-tunnel.jpg');
 }
-body#internal header {
-  background-image: url('../img/internal_banner.jpg');
+body header.street-and-technology {
+  background-image: url('../img/header-backgrounds/street-and-technology.jpg');
 }
-body#internal header .header-content {
-  display: none;
-}
-body#internal2 header {
-  background-image: url('../img/internal-2_banner.jpg');
+body header.cityscape {
+  background-image: url('../img/header-backgrounds/cityscape.jpg');
 }
 header .header-content {
   position: relative;
@@ -286,7 +283,7 @@ header .header-content .header-content-inner p {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/blue-boxes.jpg');
+  background-image: url('../img/banner-backgrounds/blue-boxes.jpg');
   text-align: center;
   color: white;
 }
@@ -669,14 +666,14 @@ body {
   background-position: center bottom;
   background-size: cover;
   background-repeat: none;
-  background-image: url('../img/camera-lens.jpg');
+  background-image: url('../img/portfolio-box-images/camera-lens.jpg');
 }
 .portfolio-box-image.vision {
-  background-image: url('../img/camera-lens.jpg');
+  background-image: url('../img/portfolio-box-images/camera-lens.jpg');
 }
 .portfolio-box-image.productivity {
-  background-image: url('../img/relay-runner.jpg');
+  background-image: url('../img/portfolio-box-images/relay-runner.jpg');
 }
 .portfolio-box-image.team {
-  background-image: url('../img/snow.jpg');
+  background-image: url('../img/portfolio-box-images/snow.jpg');
 }
