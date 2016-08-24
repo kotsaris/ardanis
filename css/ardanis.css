@@ -603,11 +603,11 @@ body {
 #footer p,
 #footer address,
 #footer .links {
-  padding: 0 15px;
   font-size: 1.5rem;
 }
 #footer .row>div {
-  height: 500px;
+  padding: 0 5px;
+  max-height: 400px;
   margin-top: 10px;
 }
 #footer .logo {
@@ -633,10 +633,13 @@ body {
 }
 #footer .feed {
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
+  margin: auto;
 }
 #footer .feed [id^="twitter-widget-"] {
   min-width: 180px !important;
+  max-width: 300px !important;
+  margin: auto;
 }
 #footer .social-logo {
   display: inline-block;
