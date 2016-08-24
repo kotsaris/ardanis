@@ -1,0 +1,9 @@
+- name: Development Services
+  tagline: realise your<br/><span class="portfolio-box-title-focus">vision</span>
+  portfolio-box-image-class: vision
+- name: Build Engineering Services
+  tagline: raise your<br/><span class="portfolio-box-title-focus">productivity</span>
+  portfolio-box-image-class: productivity
+- name: Developer Resources
+  tagline: expand your<br/><span class="portfolio-box-title-focus">team</span>
+  portfolio-box-image-class: team

@@ -1,0 +1,25 @@
+<section class="no-padding" id="services">
+    <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+            {% for portfolio-box in portfolio-box-data %}
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <a href="services.html" class="portfolio-box">
+                    <div class="portfolio-box-title">{{ portfolio-box.tagline }} </div>
+                    <div class="portfolio-box-image {{ portfolio-box.portfolio-box-image-class }} "></div>
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                              Need to build or improve a software solution?
+                            </div>
+                            <div class="project-category text-faded">
+                                find out more...
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</section>

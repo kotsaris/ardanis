@@ -32,7 +32,8 @@
 <body id="homepage">
   {% include nav.html %}
   {% include header.html %}
-  {% include homepage-services.html %}
+  {% assign portfolio-box-data = site.data.services %}
+  {% include portfolio-boxes.html %}
   {% include contact-banner.html %}
   {% include footer.html %}
 </body>
