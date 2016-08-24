@@ -248,6 +248,9 @@ body#homepage header {
 body#internal header {
   background-image: url('../img/internal_banner.jpg');
 }
+body#internal header .header-content {
+  display: none;
+}
 body#internal2 header {
   background-image: url('../img/internal-2_banner.jpg');
 }
