@@ -89,13 +89,15 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: #25BECD;
   font-family: 'unisansbookregular';
+  margin: 0px;
 }
 .navbar-default .navbar-header .navbar-brand img {
   display: inline-block;
-  height: 85%;
+  height: 40px;
   padding-left: 5px;
+  max-height: 100%;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -129,7 +131,7 @@ a:focus {
 }
 @media (min-width: 1050px) {
   .navbar .container-fluid,
-  #services .container-fluid,
+  .portfolio-box-section .container-fluid,
   #footer .container-fluid {
     width: 60%;
     min-width: 830px;
@@ -168,16 +170,17 @@ a:focus {
 
   .navbar-default .navbar-header {
     width: 20%;
-    padding-left: 28px;
     background-color: white;
   }
 
   .navbar-default .navbar-header .navbar-brand {
-    color: #25BECD;
     font-size: 2.2rem;
     letter-spacing: 2px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 
   .navbar-default .navbar-header .navbar-brand:hover,
@@ -242,17 +245,14 @@ header {
   color: white;
   margin-top: -70px;
 }
-body#homepage header {
-  background-image: url('../img/header.jpg');
+body header.cars-in-tunnel {
+  background-image: url('../img/header-backgrounds/cars-in-tunnel.jpg');
 }
-body#internal header {
-  background-image: url('../img/internal_banner.jpg');
+body header.street-and-technology {
+  background-image: url('../img/header-backgrounds/street-and-technology.jpg');
 }
-body#internal header .header-content {
-  display: none;
-}
-body#internal2 header {
-  background-image: url('../img/internal-2_banner.jpg');
+body header.cityscape {
+  background-image: url('../img/header-backgrounds/cityscape.jpg');
 }
 header .header-content {
   position: relative;
@@ -283,7 +283,7 @@ header .header-content .header-content-inner p {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/blue-boxes.jpg');
+  background-image: url('../img/banner-backgrounds/blue-boxes.jpg');
   text-align: center;
   color: white;
 }
@@ -379,7 +379,7 @@ header .header-content .header-content-inner p {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 570px;
   margin: 0 auto;
   height: 200px;
   overflow: hidden;
@@ -603,11 +603,11 @@ body {
 #footer p,
 #footer address,
 #footer .links {
-  padding: 0 15px;
   font-size: 1.5rem;
 }
 #footer .row>div {
-  height: 500px;
+  padding: 0 5px;
+  max-height: 400px;
   margin-top: 10px;
 }
 #footer .logo {
@@ -633,10 +633,13 @@ body {
 }
 #footer .feed {
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
+  margin: auto;
 }
 #footer .feed [id^="twitter-widget-"] {
   min-width: 180px !important;
+  max-width: 300px !important;
+  margin: auto;
 }
 #footer .social-logo {
   display: inline-block;
@@ -663,14 +666,14 @@ body {
   background-position: center bottom;
   background-size: cover;
   background-repeat: none;
-  background-image: url('../img/camera-lens.jpg');
+  background-image: url('../img/portfolio-box-images/camera-lens.jpg');
 }
 .portfolio-box-image.vision {
-  background-image: url('../img/camera-lens.jpg');
+  background-image: url('../img/portfolio-box-images/camera-lens.jpg');
 }
 .portfolio-box-image.productivity {
-  background-image: url('../img/relay-runner.jpg');
+  background-image: url('../img/portfolio-box-images/relay-runner.jpg');
 }
 .portfolio-box-image.team {
-  background-image: url('../img/snow.jpg');
+  background-image: url('../img/portfolio-box-images/snow.jpg');
 }

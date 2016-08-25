@@ -48,24 +48,11 @@
                         ardanis links
                     </h3>
                     <ul>
+                        {% for link in site.data.links %}
                         <li>
-                            <a href="#">home</a>
+                            <a href="{{ link.destination }}">{{ link.name }}</a>
                         </li>
-                        <li>
-                            <a href="#">services</a>
-                        </li>
-                        <li>
-                            <a href="#">about us</a>
-                        </li>
-                        <li>
-                            <a href="#">meet the team</a>
-                        </li>
-                        <li>
-                            <a href="#">projects</a>
-                        </li>
-                        <li>
-                            <a href="#">contact</a>
-                        </li>
+                        {% endfor %}
                     </ul>
                     <div class="social-logo">
                         <a href="https://www.facebook.com/Ardanis-239753133058100/">

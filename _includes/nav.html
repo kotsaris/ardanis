@@ -11,21 +11,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar">
+                  {% for link in site.data.links %}
                   <li>
-                      <a class="page-scroll" href="services.html">services</a>
+                      <a class="page-scroll" href="{{ link.destination }}">{{ link.name }}</a>
                   </li>
-                  <li>
-                      <a class="page-scroll" href="about.html">about us</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll" href="team.html">meet the team</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll" href="projects.html">projects</a>
-                  </li>
-                  <li>
-                      <a class="page-scroll" href="contact.html">contact</a>
-                  </li>
+                  {% endfor %}
               </ul>
           </div>
         <!-- /.navbar-collapse -->

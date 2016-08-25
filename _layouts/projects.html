@@ -6,13 +6,13 @@
 <body>
   {% include nav.html %}
   {% include header.html
-    header-data=site.data.homepage.header
+    header-data=site.data.projects.header
   %}
   {% include portfolio-boxes.html
-    portfolio-box-data=site.data.services.categories
-    id="services"
-    before-boxes=site.data.services.before-boxes
-    after-boxes=site.data.services.after-boxes
+    portfolio-box-data=site.data.projects.categories
+    id="projects"
+    before-boxes=site.data.projects.before-boxes
+    after-boxes=site.data.projects.after-boxes
   %}
   {% include contact-banner.html %}
   {% include footer.html %}
