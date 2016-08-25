@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'unisansthinregular';
+  font-family: 'unisansbookregular';
 }
 p {
   font-size: 16px;
@@ -94,7 +94,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand img {
   display: inline-block;
-  height: 90%;
+  height: 85%;
   padding-left: 5px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -128,12 +128,11 @@ a:focus {
   text-decoration: none;
 }
 @media (min-width: 1050px) {
-  .navbar .container-fluid {
-    width: 60%;
-  }
+  .navbar .container-fluid,
   #services .container-fluid,
   #footer .container-fluid {
     width: 60%;
+    min-width: 830px;
   }
 }
 @media (min-width: 768px) {
@@ -215,9 +214,6 @@ a:focus {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
-  .img-responsive {
-    width: 100%
-  }
   #services {
     margin-top: -100px;
   }
@@ -230,7 +226,7 @@ a:focus {
   }
   #footer .feed {
     text-align: center;
-    padding: 10px 5px !important;
+    padding: 0px 5px !important;
   }
 }
 header {
@@ -251,6 +247,9 @@ body#homepage header {
 }
 body#internal header {
   background-image: url('../img/internal_banner.jpg');
+}
+body#internal header .header-content {
+  display: none;
 }
 body#internal2 header {
   background-image: url('../img/internal-2_banner.jpg');
@@ -608,7 +607,7 @@ body {
   font-size: 1.5rem;
 }
 #footer .row>div {
-  height: 400px;
+  height: 500px;
   margin-top: 10px;
 }
 #footer .logo {
@@ -658,4 +657,20 @@ body {
 }
 #footer ul li a {
   color: #4CB73B;
+}
+.portfolio-box-image {
+  height: 50%;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: none;
+  background-image: url('../img/camera-lens.jpg');
+}
+.portfolio-box-image.vision {
+  background-image: url('../img/camera-lens.jpg');
+}
+.portfolio-box-image.productivity {
+  background-image: url('../img/relay-runner.jpg');
+}
+.portfolio-box-image.team {
+  background-image: url('../img/snow.jpg');
 }
