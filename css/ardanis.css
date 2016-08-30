@@ -198,6 +198,7 @@ a:focus {
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
+    font-family: 'unisansbookregular';
   }
   .navbar-default.affix {
     background-color: white;
