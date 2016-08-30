@@ -4,15 +4,17 @@
 {% include head.html %}
 
 <body>
-  {% include nav.html %}
+  {% include nav.html
+    active="services"
+  %}
   {% include header.html
     header-data=site.data.services.header
   %}
   {% include portfolio-boxes.html
     portfolio-box-data=site.data.projects.categories
     id="projects"
-    before-boxes=site.data.projects.before-boxes
-    after-boxes=site.data.projects.after-boxes
+    before-boxes=site.data.services.before-boxes
+    after-boxes=site.data.services.after-boxes
   %}
   {% include contact-banner.html %}
   {% include footer.html %}

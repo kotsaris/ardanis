@@ -2,7 +2,7 @@ header:
   title:
   subtitle:
   class: street-and-technology
-before-boxes: 
+before-boxes: <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 after-boxes: <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 categories:
   - name: Development Services
@@ -12,7 +12,7 @@ categories:
     portfolio-box-content-text: find out more...
     destination: services.html
   - name: Build Engineering Services
-    tagline: raise your<br/><span class="portfolio-box-title-focus">productivity</span>
+    tagline: increase your<br/><span class="portfolio-box-title-focus">productivity</span>
     portfolio-box-image-class: productivity
     portfolio-box-content-title: Tools and processes can speed up development
     portfolio-box-content-text: find out more...

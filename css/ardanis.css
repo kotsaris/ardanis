@@ -195,10 +195,12 @@ a:focus {
     background-color: #176286;
     opacity: 0.8;
   }
+  .navbar-default .nav > li > a.active,
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
     font-family: 'unisansbookregular';
+    background-color: transparent;
   }
   .navbar-default.affix {
     background-color: white;
