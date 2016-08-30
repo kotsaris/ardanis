@@ -8,6 +8,13 @@
   {% include header.html
     header-data=site.data.services.header
   %}
+  {% include portfolio-boxes.html
+    portfolio-box-data=site.data.projects.categories
+    id="projects"
+    before-boxes=site.data.projects.before-boxes
+    after-boxes=site.data.projects.after-boxes
+  %}
+  {% include contact-banner.html %}
   {% include footer.html %}
 </body>
 
