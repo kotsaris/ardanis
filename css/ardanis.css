@@ -125,7 +125,7 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
-#services a:hover,
+.portfolio-box-section a:hover,
 a:focus {
   text-decoration: none;
 }
@@ -195,9 +195,12 @@ a:focus {
     background-color: #176286;
     opacity: 0.8;
   }
+  .navbar-default .nav > li > a.active,
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
+    font-family: 'unisansbookregular';
+    background-color: transparent;
   }
   .navbar-default.affix {
     background-color: white;
@@ -217,10 +220,10 @@ a:focus {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
-  #services {
+  #homepage {
     margin-top: -100px;
   }
-  #services .summary-text {
+  #homepage .summary-text {
     text-align: center;
     padding: 20px 50px 50px 50px;
   }
@@ -672,7 +675,7 @@ body {
   background-image: url('../img/portfolio-box-images/camera-lens.jpg');
 }
 .portfolio-box-image.productivity {
-  background-image: url('../img/portfolio-box-images/relay-runner.jpg');
+  background-image: url('../img/portfolio-box-images/switches.jpg');
 }
 .portfolio-box-image.team {
   background-image: url('../img/portfolio-box-images/snow.jpg');

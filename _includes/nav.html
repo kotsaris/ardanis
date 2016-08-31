@@ -13,7 +13,7 @@
               <ul class="nav navbar-nav navbar">
                   {% for link in site.data.links %}
                   <li>
-                      <a class="page-scroll" href="{{ link.destination }}">{{ link.name }}</a>
+                      <a class="page-scroll {% if link.id==include.active %}active{% endif %}" href="{{ link.destination }}">{{ link.name }}</a>
                   </li>
                   {% endfor %}
               </ul>

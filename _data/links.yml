@@ -1,10 +1,12 @@
 - name: services
   destination: services.html
-- name: about us
-  destination: about.html
-- name: meet the team
-  destination: team.html
+  id: services
 - name: projects
   destination: projects.html
+  id: projects
+- name: meet the team
+  destination: team.html
+  id: team
 - name: contact
   destination: contact.html
+  id: contact
