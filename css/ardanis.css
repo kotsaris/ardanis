@@ -119,7 +119,7 @@ aside {
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #1a6d95; !important;
-  background-color: transparent;
+  background-color: red;
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
@@ -199,8 +199,7 @@ a:focus {
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
-    font-family: 'unisansbookregular';
-    background-color: transparent;
+    background-color: rgba(13, 165, 225, 0.8);
   }
   .navbar-default.affix {
     background-color: white;
@@ -220,10 +219,10 @@ a:focus {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
-  #homepage {
+  #homepage-services {
     margin-top: -100px;
   }
-  #homepage .summary-text {
+  #homepage-services .summary-text {
     text-align: center;
     padding: 20px 50px 50px 50px;
   }
@@ -250,6 +249,9 @@ header {
 }
 body header.cars-in-tunnel {
   background-image: url('../img/header-backgrounds/cars-in-tunnel.jpg');
+}
+body header.map {
+  background-image: url('../img/header-backgrounds/map.jpg');
 }
 body header.street-and-technology {
   background-image: url('../img/header-backgrounds/street-and-technology.jpg');
