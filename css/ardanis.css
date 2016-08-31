@@ -220,10 +220,10 @@ a:focus {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
-  #services {
+  #homepage {
     margin-top: -100px;
   }
-  #services .summary-text {
+  #homepage .summary-text {
     text-align: center;
     padding: 20px 50px 50px 50px;
   }
