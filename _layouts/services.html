@@ -10,11 +10,10 @@
   {% include header.html
     header-data=site.data.services.header
   %}
-  {% include portfolio-boxes.html
-    portfolio-box-data=site.data.services.categories
-    id="services"
-    before-boxes=site.data.services.before-boxes
-    after-boxes=site.data.services.after-boxes
+  {% include alternating-image-text.html
+    content-title=site.data.services.title
+    content-summary=site.data.services.summary
+    content-data=site.data.services.categories
   %}
   {% include contact-banner.html %}
   {% include footer.html %}
