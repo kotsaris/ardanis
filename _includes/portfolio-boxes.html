@@ -6,7 +6,7 @@
             {% assign box-col-count =  12 | divided_by: box-count %}
             {% for portfolio-box in include.portfolio-box-data %}
             <div class="col-lg-{{ box-col-count }} col-md-{{ box-col-count }} col-sm-{{ box-col-count }}">
-                <a href="{{ portfolio-box.destinatio }}" class="portfolio-box">
+                <a href="{{ portfolio-box.destination }}" class="portfolio-box">
                     <div class="portfolio-box-title">{{ portfolio-box.tagline }}</div>
                     <div class="portfolio-box-image {{ portfolio-box.portfolio-box-image-class }}"></div>
                     <div class="portfolio-box-caption">

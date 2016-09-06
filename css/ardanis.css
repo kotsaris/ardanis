@@ -54,6 +54,7 @@ h4,
 h5,
 h6 {
   font-family: 'unisansbookregular';
+  color: #227093;
 }
 p {
   font-size: 16px;
@@ -88,7 +89,8 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #25BECD;
+  /*color: #25BECD;*/
+  color: #227093;
   font-family: 'unisansbookregular';
   margin: 0px;
 }
@@ -131,6 +133,7 @@ a:focus {
 @media (min-width: 1050px) {
   .navbar .container-fluid,
   .portfolio-box-section .container-fluid,
+  .alternating-image-section .container-fluid,
   #footer .container-fluid {
     width: 60%;
     min-width: 830px;
@@ -221,9 +224,23 @@ a:focus {
   #homepage-services {
     margin-top: -100px;
   }
+  #homepage-services p:nth-of-type(1) {
+    margin-top:20px;
+  }
+  p {
+    color: #227093;
+    text-align: justify;
+  }
   #homepage-services .summary-text {
-    text-align: center;
-    padding: 20px 50px 50px 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.75rem;
+  }
+  #homepage-services a {
+    color: #227093;
+    font-size: 1.75rem;
+    text-align: justify;
+    font-family: 'unisansbookregular'
   }
   #footer .container-fluid {
     height: 300px;
@@ -268,6 +285,7 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+  color: white;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -368,6 +386,7 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: 0;
+  color: white;
 }
 .service-box {
   max-width: 400px;
@@ -622,7 +641,7 @@ body {
 #footer .logo-text {
   font-size: 3rem;
   letter-spacing: 2px;
-  color: #25BECD;
+  color: #227093;
 }
 #footer .logo-image {
   size: 4rem 4rem;
@@ -656,7 +675,8 @@ body {
   overflow-x: hidden;
 }
 #footer h3 {
-  color: #25BECD;
+  /*color: #25BECD;*/
+  color: #227093;
 }
 #footer ul {
   padding: 0px 5px;
@@ -710,7 +730,7 @@ body {
 }
 
 .featurette-divider {
-    margin: 80px 0;
+    margin: 20px 0;
 }
 
 .featurette {
@@ -727,10 +747,6 @@ body {
 
 .featurette-heading {
     font-size: 50px;
-}
-
-.featurette-divider {
-    margin: 80px 0;
 }
 
 footer {
@@ -853,4 +869,10 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+}
+
+@media (max-width: 375px) {
+  .featurette-image {
+    width: 100%;
+  }
 }

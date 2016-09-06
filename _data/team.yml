@@ -1,0 +1,27 @@
+header:
+  title:
+  subtitle:
+  class: street-and-technology
+title: Meet the Team
+summary:
+categories:
+  - name: Ivan Goor
+    anchor-name: ivan
+    details-image: img/internal_mobile.jpg
+    details: "Blah Blah Blah"
+  - name: Kostas Konstantinidis
+    anchor-name: kostas
+    details-image: img/internal_mobile.jpg
+    details: "Blah Blah Blah"
+  - name: Stefan Goor
+    anchor-name: stefan
+    details-image: img/internal_mobile.jpg
+    details: "Blah Blah Blah"
+  - name: Lei Yu
+    anchor-name: Lei
+    details-image: img/internal_mobile.jpg
+    details: "Blah Blah Blah"
+  - name: Brian Flynn
+    anchor-name: brian
+    details-image: img/internal_mobile.jpg
+    details: "Blah Blah Blah"
