@@ -14,26 +14,22 @@ categories:
     destination: services.html#development
     details-image: img/internal_mobile.jpg
     details: "<h3>You want to build a product or improve your existing solution, do you need some help?</h3>
-      <p>We often hear phrases like:
-        <ul>
-        	<li>We want to build a product but don’t have the people or time available to build it.</li>
-          <li>We know the solution we want but don’t know how to build it.</li>
-          <li>We need a solution to a particular problem but don’t know what the solution should be.</li>
-          <li>Our products works but our customers complain that is difficult to use</li>
-          <li>Our product needs more modern features as it is getting outdated and losing popularity</li>
-        </ul>
-      If any of the above sounded familiar then Ardanis can help you bring your vision to reality.
+      <p class='summary-text'>We often hear phrases like:</p>
+      <p class='comment'>We want to build a product but don’t have the people or time available to build it.</p>
+      <p class='comment'>We know the solution we want but don’t know how to build it.</p>
+      <p class='comment'>Our product needs more modern features as it is getting outdated and losing popularity.</p>
+      <p class='summary-text'>If any of the above sounded familiar then Ardanis can help you bring your vision to reality.
       We are passionate about quality software development!  You can rest easy when working with us b
       ecause we use the best practices and technologies to ensure that you get a solution that perfectly
       meets your needs and will be scalable, robust and delivered promptly.</p>
-      <h4>How do we help you?</h4>
-      Our technical skills and experience to help achieve your vision for your product.  You will be involved
+      <h3>How do we help you?</h3>
+      <p class='summary-text'>Our technical skills and experience to help achieve your vision for your product.  You will be involved
       in the entire process so you can easily observe the progress.  We use the Agile development process to
       ensure that you get the outcome you want.  Agile involves an ongoing series of demonstrations of the
       project’s progress so your feedback identifies any issues we need to resolve early.  As the name
       suggests, Agile is a flexible approach that allows changes to be incorporated quickly and seamlessly.
       It is important that the most suitable technologies are used for your product so that it is robust and
-      good value.  Our experienced team will offer you expert advice and options targeted to your product."
+      good value.  Our experienced team will offer you expert advice and options targeted to your product.</p>"
   - name: Build Engineering
     anchor-name: engineering
     tagline: increase your<br/><span class="portfolio-box-title-focus">productivity</span>
@@ -46,17 +42,16 @@ categories:
       <p>Whether you are building a new product or maintaining existing solutions there are a lot of techniques
       you can use to make it easier and more efficient.  If you have said or heard comments similar to the
       following, we can help you:
-      <ul>
-        <li>We dread releases!  We often have to rollback releases because of unexpected side effects.</li>
-        <li>Our pace of development is not as fast as we’d like.</li>
-        <li>Our developers have to spend a significant amount of time maintaining tools and environmental issues
-        rather working on new features or releases.</li>
-        <li>What the development team produces is not always aligned with what the business users wanted.</li>
+      <p class='comment'>We dread releases!  We often have to rollback releases because of unexpected side effects.</p>
+      <p class='comment'>Our pace of development is not as fast as we’d like.</p>
+      <p class='comment'>Our developers have to spend a significant amount of time maintaining tools and environmental issues
+        rather working on new features or releases.</p>
+      <p class='comment'>What the development team produces is not always aligned with what the business users wanted.</p>
       </ul>
-      If these sound familiar, don’t worry!  These are very common concerns in software development and there a
+      <p class='summary-text'>If these sound familiar, don’t worry!  These are very common concerns in software development and there a
       number of convenient solutions.</p>
-      <h4>How do we help you?</h4>
-      <p>You can overcome issues like those by using some techniques that make development faster and more
+      <h3>How do we help you?</h3>
+      <p class='summary-text'>You can overcome issues like those by using some techniques that make development faster and more
       reliable.  We can help you implement and adopt these techniques. Agile, code quality metrics, Test Driven
       Development (TDD), Continuous Integration (CI) and Continuous Deployment (CD) are examples of techniques
       that we can help you implement.  These techniques can make a radical improvement on your productivity.
