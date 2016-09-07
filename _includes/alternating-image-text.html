@@ -9,7 +9,7 @@
       {% assign count = 1 %}
       {% for content in include.content-data %}
       <div class="featurette" id="{{ content.anchor-name }}">
-          <img class="featurette-image img-responsive pull-{% if count == 0 %}left{% else %}right{% endif %}" src="{{ content.details-image }}">
+          <img class="featurette-image{% if include.rounded-images == true %} img-circle{% endif %} img-responsive pull-{% if count == 0 %}left{% else %}right{% endif %}" src="{{ content.details-image }}">
           <h2 class="featurette-heading">{{ content.name }}</h2>
           <p class="summary-text">{{ content.details }}</p>
       </div>
