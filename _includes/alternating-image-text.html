@@ -1,23 +1,23 @@
 <!-- Page Content -->
-<div class="container">
+<div class="alternating-image-section">
+  <div class="container-fluid">
 
-    <h1>{{ include.content-title }}</h1>
-    <p>{{ include.content-summary }}</p>
+      <h1>{{ include.content-title }}</h1>
+      <p>{{ include.content-summary }}</p>
 
-    <hr class="featurette-divider">
-    {% assign count = 1 %}
-    {% for content in include.content-data %}
-    <div class="featurette" id="feature1">
-        <img class="featurette-image img-responsive pull-{% if count == 0 %}left{% else %}right{% endif %}" src="{{ content.details-image }}">
-        <h2 class="featurette-heading">This First Heading
-            <span class="text-muted">Will Catch Your Eye</span>
-        </h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-    </div>
+      <hr class="featurette-divider">
+      {% assign count = 1 %}
+      {% for content in include.content-data %}
+      <div class="featurette" id="{{ content.anchor-name }}">
+          <img class="featurette-image{% if include.rounded-images == true %} img-circle{% endif %} img-responsive pull-{% if count == 0 %}left{% else %}right{% endif %}" src="{{ content.details-image }}">
+          <h2 class="featurette-heading">{{ content.name }}</h2>
+          <p class="summary-text">{{ content.details }}</p>
+      </div>
 
-    <hr class="featurette-divider">
-    {% assign count = count | plus: 1 | modulo: 2 %}
-    {% endfor %}
+      <hr class="featurette-divider">
+      {% assign count = count | plus: 1 | modulo: 2 %}
+      {% endfor %}
 
+  </div>
+  <!-- /.container -->
 </div>
-<!-- /.container -->

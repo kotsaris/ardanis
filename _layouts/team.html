@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% include nav.html
+    active="team"
+  %}
+  {% include header.html
+    header-data=site.data.team.header
+  %}
+  {% include alternating-image-text.html
+    content-title=site.data.team.title
+    content-summary=site.data.team.summary
+    content-data=site.data.team.categories
+    rounded-images=true
+  %}
+  {% include contact-banner.html %}
+  {% include footer.html %}
+</body>
+
+{% include scripts.html %}
+
+</html>

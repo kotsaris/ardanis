@@ -1,0 +1,27 @@
+header:
+  title:
+  subtitle:
+  class: street-and-technology
+title: Meet the Team
+summary:
+categories:
+  - name: Ivan Goor
+    anchor-name: ivan
+    details-image: img/profiles/blank.png
+    details: "Blah Blah Blah"
+  - name: Kostas Konstantinidis
+    anchor-name: kostas
+    details-image: img/profiles/kostas.png
+    details: "Kostas has a deep appreciation for software craftsmanship, automation and usability. He has a pragmatic eye on using proven technologies but is keen to employ new tools when a use case suggests it. He implemented software for retail, fintech and the online gaming industries and he believes that having fun while coding creates better results. Lastly, he likes to keep a social atmosphere in his working environment so beware of his bad jokes."
+  - name: Stefan Goor
+    anchor-name: stefan
+    details-image: img/profiles/stefan.jpg
+    details: "Stefan is an software engineer with a deep knowledge of backend, frontend and build tool development.  He always strives for the highest quality deliverables and enjoys using technology to simplify important tasks.</p><p class='summary-text'>When not working, Stefan enjoys DIY, running, watching rugby and is a keen motorbike enthuasiast.  At 6'6&quot; he's easy to find in a crowd too!"
+  - name: Lei Yu
+    anchor-name: Lei
+    details-image: img/profiles/lei.jpg
+    details: "Lei is an experienced developer and is passionate about creating software and leveraging technology to solve real problems. he developed solutions for FinTech, healthcare and government. In his spare time, he enjoys following tech trends and doing research on great products."
+  - name: Brian Flynn
+    anchor-name: brian
+    details-image: img/profiles/blank.png
+    details: "An experienced software engineer/architect with over ten years experience helping teams build great products. I am keenly interested in everything that goes into building software from development methodologies to architecture to QA to release processes. My areas of specialty are distributed service oriented systems, message driven architectures and continuous integration/deployment."
