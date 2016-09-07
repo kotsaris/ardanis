@@ -8,7 +8,10 @@ categories:
   - name: Ivan Goor
     anchor-name: ivan
     details-image: img/profiles/blank.png
-    details: "Blah Blah Blah"
+    details: "Ivan Goor has over 15 years experience working in Technology, from Developer to Team Lead and Scrum Master.
+He spent a large part of his career in London working with startups through to multinationals tech companies.
+He is a problem solver with a particular interest in Fintech and agile processes.
+Outside of technology, he has a passion for rugby and has been known to occasionally dust off his boots to play for his local team"
   - name: Kostas Konstantinidis
     anchor-name: kostas
     details-image: img/profiles/kostas.png
@@ -24,4 +27,4 @@ categories:
   - name: Brian Flynn
     anchor-name: brian
     details-image: img/profiles/blank.png
-    details: "An experienced software engineer/architect with over ten years experience helping teams build great products. I am keenly interested in everything that goes into building software from development methodologies to architecture to QA to release processes. My areas of specialty are distributed service oriented systems, message driven architectures and continuous integration/deployment."
+    details: "Brian is a software developer and architect with over ten years experience helping teams build great products. Brian has worked in many industries including telecoms, gaming and fintech and he is interested in everything that goes into building software from development methodologies to architecture to testing and release processes. His areas of specialty are distributed service-oriented systems, message driven architectures and continuous integration/deployment."

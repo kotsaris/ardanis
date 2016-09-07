@@ -132,10 +132,7 @@ a:focus {
   text-decoration: none;
 }
 @media (min-width: 1050px) {
-  .navbar .container-fluid,
-  .portfolio-box-section .container-fluid,
-  .alternating-image-section .container-fluid,
-  #footer .container-fluid {
+  .container-fluid {
     width: 60%;
     min-width: 830px;
   }
