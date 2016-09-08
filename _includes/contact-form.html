@@ -5,7 +5,7 @@
             <div class="col-md-6 offset-md-3">
                 <h3>Send us a Message</h3>
                 <form name="sentMessage" id="contactForm" method="POST"
-      action="https://formspree.io/{{ site.email }}">
+      action="https://www.formingo.co/submit/{{ site.email }}">
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Full Name:</label>
@@ -22,7 +22,7 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email Address:</label>
-                            <input type="email" class="form-control" name="_replyto" id="_replyto" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" name="__replyto" id="__replyto" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                 </div>
@@ -37,6 +37,7 @@
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
+                    <input type="hidden" name="__redirect" value="{{ site.thanks_url }}">
                     <button type="submit" class="btn btn-default pull-right">Send Message</button>
                 </form>
             </div>
