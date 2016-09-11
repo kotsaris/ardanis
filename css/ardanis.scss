@@ -4,10 +4,12 @@
 $primary-color: #1A6D95;
 $secondary-color: #258ECD;
 $teriary-color: #84C442;
+$social-media-colour: #337ab7;
+$social-media-hover-color: #23527c;
 
 $primary-font: 'unisansbookregular';
 $secondary-font: 'unisansthinregular';
-$header-height: 500px;
+$header-height: 400px;
 
 @font-face {
   font-family: $primary-font;
@@ -34,6 +36,10 @@ body {
   font-family: $secondary-font;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'unisansbookregular';
+}
+
 .navbar-default .navbar-header .navbar-brand img {
   display: inline-block;
   height: 100%;
@@ -51,6 +57,119 @@ body header.street-and-technology {
 }
 body header.cityscape {
   background-image: url('../img/header-backgrounds/cityscape.jpg');
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  margin-top: -70px;
+}
+
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6 {
+  color: white;
+}
+
+section#contact {
+  padding: 100px 0;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+}
+
+#contact {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/banner-backgrounds/blue-boxes.jpg');
+  text-align: center;
+  color: white;
+}
+
+ul.list-social-icons li a i {
+  color: $social-media-colour;
+}
+
+ul.list-social-icons li:active a i,
+ul.list-social-icons li:hover a i {
+  color: $social-media-hover-color;
+}
+
+.featurette-divider {
+ margin: 80px 0; /* <hr> between each */
+}
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+@media(max-width:1200px) {
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -75,8 +194,15 @@ body header.cityscape {
     width: 80%;
   }
 
+  .navbar-default .navbar-header {
+    width: 20%;
+    padding-left: 28px;
+    background-color: white;
+  }
+
   .navbar-default .navbar-header .navbar-brand {
     color: $secondary-color;
+    font-family: 'unisansbookregular';
     font-size: 2.2rem;
     letter-spacing: 2px;
     padding-top: 3px;
@@ -102,6 +228,53 @@ body header.cityscape {
 
   header {
     height: $header-height;
-    margin-top: -70px;
+    margin-top: -75px;
   }
+
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+
+  .featurette-divider {
+      margin: 40px 0;
+  }
+
+  .featurette-heading {
+      font-size: 25px;
+  }
+
+  .featurette-image.img-circle {
+    width: 25%;
+  }
+}
+
+@media(max-width:668px) {
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
 }
