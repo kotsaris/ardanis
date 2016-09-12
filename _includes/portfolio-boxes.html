@@ -1,6 +1,8 @@
 <section class="no-padding portfolio-box-section" id="{{ include.id }}">
     <div class="container-fluid">
-        {{ include.before-boxes }}
+        <div class="portfolio-prefix">
+          {{ include.before-boxes }}
+        </div>
         <div class="row no-gutter popup-gallery">
             {% assign box-count = include.portfolio-box-data | size %}
             {% assign box-col-count =  12 | divided_by: box-count %}
@@ -23,6 +25,8 @@
             </div>
             {% endfor %}
         </div>
-        {{ include.after-boxes }}
+        <div class="portfolio-suffix">
+          {{ include.after-boxes }}
+        </div>
     </div>
 </section>

@@ -9,7 +9,7 @@ $social-media-hover-color: #23527c;
 
 $primary-font: 'unisansbookregular';
 $secondary-font: 'unisansthinregular';
-$header-height: 400px;
+$header-height: 500px;
 
 @font-face {
   font-family: $primary-font;
@@ -90,6 +90,41 @@ header h6 {
   color: white;
 }
 
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+  font-family: 'unisansthinregular';
+  color: white;
+}
+
+header .header-content a {
+  color: white;
+}
+
+.text-logo-link,
+.text-logo-link:hover,
+.text-logo-link:active,
+.text-logo-link:focus {
+  font-family: 'unisansthinregular';
+  font-weight: 300;
+  text-decoration:none;
+  cursor:pointer;
+}
+.text-logo-link:after {
+  background-image: url('../img/ardanis-symbol-small.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: " ";
+  display: inline-block;
+  width: 3.5rem;
+  height: 2.6rem;
+  vertical-align: -0.8rem;
+  padding-left: 5px;
+}
+
 section#contact-banner {
   padding: 80px 0 100px 0;
 }
@@ -142,6 +177,21 @@ ul.list-social-icons li:hover a i {
 
 .featurette-heading {
     font-size: 50px;
+}
+
+#footer {
+  font-size: 1.6rem;
+}
+
+#footer .logo-text {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: $primary-color;
+}
+
+#footer .logo {
+    padding: 15px;
+    text-align: center;
 }
 
 @media(max-width:1200px) {
@@ -204,7 +254,6 @@ ul.list-social-icons li:hover a i {
 
   .navbar-default .navbar-header {
     width: 20%;
-    padding-left: 28px;
     background-color: white;
   }
 
@@ -215,6 +264,9 @@ ul.list-social-icons li:hover a i {
     letter-spacing: 2px;
     padding-top: 3px;
     padding-bottom: 3px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
   }
 
   .navbar .navbar-nav > li {
@@ -246,6 +298,29 @@ ul.list-social-icons li:hover a i {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
+  }
+
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h3 {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 1.8rem;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 0px 5px;
+  }
+
+  #homepage-services div.portfolio-suffix {
+    margin: 20px 70px;
   }
 
   .featurette-divider {
