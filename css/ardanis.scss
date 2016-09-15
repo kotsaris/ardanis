@@ -32,12 +32,23 @@ body {
   padding: 0;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .btn,
 .btn:active,
 .btn:hover {
   border-radius: 300px;
   border-width: 0;
   margin: 0;
+}
+
+.btn-group.open .dropdown-toggle.btn-success, .btn-success:focus, .btn-success:hover {
+    background-color: white;
+    border-color: $teriary-color;
+    color: $primary-color;
 }
 
 .navbar-default {
@@ -187,7 +198,6 @@ ul.list-social-icons li:hover a i {
 }
 
 .featurette-heading {
-    font-size: 50px;
     margin-top: 0;
 }
 
@@ -208,6 +218,16 @@ ul.list-social-icons li:hover a i {
 #footer .logo {
     padding: 15px;
     text-align: center;
+}
+
+#footer .feed [id^="twitter-widget-"] {
+  min-width: 180px !important;
+  max-width: 300px !important;
+  margin: auto;
+}
+
+.feed {
+  text-align: center;
 }
 
 @media(max-width:1200px) {
@@ -367,6 +387,7 @@ ul.list-social-icons li:hover a i {
 @media(max-width:668px) {
     .featurette-image {
       width: 100%;
+      padding: 0 20% 20px 20%;
     }
 
     .featurette-divider {
