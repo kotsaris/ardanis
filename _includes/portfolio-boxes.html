@@ -3,7 +3,7 @@
         <div class="portfolio-prefix">
           {{ include.before-boxes }}
         </div>
-        <div class="row no-gutter popup-gallery">
+        <div class="row no-gutter">
             {% assign box-count = include.portfolio-box-data | size %}
             {% assign box-col-count =  12 | divided_by: box-count %}
             {% for portfolio-box in include.portfolio-box-data %}

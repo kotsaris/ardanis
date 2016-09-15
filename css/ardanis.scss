@@ -449,23 +449,23 @@ ul.list-social-icons li:hover a i {
 .portfolio-box .portfolio-box-title .portfolio-box-title-focus {
   font-family: 'unisansbookregular';
 }
-.popup-gallery>div:nth-of-type(4n+1) .portfolio-box .portfolio-box-caption,
-.popup-gallery>div:nth-of-type(4n+1) .portfolio-box .portfolio-box-title {
+div:nth-of-type(4n+1)>.portfolio-box .portfolio-box-caption,
+div:nth-of-type(4n+1)>.portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(76, 183, 59, 0.7);
 }
-.popup-gallery>div:nth-of-type(4n+2) .portfolio-box .portfolio-box-caption,
-.popup-gallery>div:nth-of-type(4n+2) .portfolio-box .portfolio-box-title {
+div:nth-of-type(4n+2)>.portfolio-box .portfolio-box-caption,
+div:nth-of-type(4n+2)>.portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(26, 109, 149, 0.8);
 }
-.popup-gallery>div:nth-of-type(4n+3) .portfolio-box .portfolio-box-caption,
-.popup-gallery>div:nth-of-type(4n+3) .portfolio-box .portfolio-box-title {
+div:nth-of-type(4n+3)>.portfolio-box .portfolio-box-caption,
+div:nth-of-type(4n+3)>.portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(13, 165, 225, 0.8);
 }
-.popup-gallery>div:nth-of-type(4n+4) .portfolio-box .portfolio-box-caption,
-.popup-gallery>div:nth-of-type(4n+4) .portfolio-box .portfolio-box-title {
+div:nth-of-type(4n+4)>.portfolio-box .portfolio-box-caption,
+div:nth-of-type(4n+4)>.portfolio-box .portfolio-box-title {
   color: white;
   background: rgba(76, 183, 59, 0.7);
 }
