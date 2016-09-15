@@ -1,6 +1,6 @@
 <section class="no-padding" id="footer">
     <div class="container-fluid">
-        <div class="row no-gutter">
+        <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="logo">
                     <div class="logo-text">
@@ -8,21 +8,11 @@
                       <img src="img/ardanis-symbol.png"/>
                     </div>
                 </div>
-                <address>
-                    Ardanis Technologies Limited<br/>
-                    23 Fitzwillam Street Upper<br/>
-                    Dublin 2<br/>
-                    D02 DF74<br/>
-                    Ireland<br/>
-                </address>
-                <p>
-                    Phone: <a href="tel:+353866088919">+353 86 608 8919</a><br/>
-                    Email: <a href="mailto:info@ardanis.com">info@ardanis.com</a>
-                </p>
-                <p class="legal">
+                {% include contact-details.html %}
+                <p class="legal small">
                     Ardanis Technologies Ltd trading as Ardanis
                 </p>
-                <p class="legal">
+                <p class="legal small">
                     &copy; 2016 Ardanis All rights reserved.
                 </p>
             </div>
@@ -54,21 +44,7 @@
                         </li>
                         {% endfor %}
                     </ul>
-                    <div class="social-logo">
-                        <a href="https://www.facebook.com/Ardanis-239753133058100/">
-                            <img src="vendor/facebook/FB-f-Logo__blue_50.png"/>
-                        </a>
-                    </div>
-                    <div class="social-logo">
-                        <a href="https://twitter.com/ardanis">
-                            <img src="vendor/twitter/Twitter_Logo_White_On_Blue.png"/>
-                        </a>
-                    </div>
-                    <div class="social-logo">
-                        <a href="https://www.linkedin.com/company/ardanis-technologies-limited">
-                            <img src="vendor/linkedin/In-2CRev-54px-R.png"/>
-                        </a>
-                    </div>
+                    {% include social-media-links.html %}
                 </div>
             </div>
         </div>

@@ -2,16 +2,15 @@ header:
   title:
   subtitle:
   class: street-and-technology
-title: Meet the Team
+title: Founders
 summary:
 categories:
   - name: Ivan Goor
     anchor-name: ivan
-    details-image: img/profiles/blank.png
-    details: "Ivan Goor has over 15 years experience working in Technology, from Developer to Team Lead and Scrum Master.
-He spent a large part of his career in London working with startups through to multinationals tech companies.
-He is a problem solver with a particular interest in Fintech and agile processes.
-Outside of technology, he has a passion for rugby and has been known to occasionally dust off his boots to play for his local team"
+    details-image: img/profiles/ivan.png
+    details: "Ivan started out as a software developer and moved to the UK to further develop his skills. During this time, it became apparently that he had strong leaderships skills and shortly rose to the position of Team Lead. While working at Wonga, he was the Tech Lead to numerous teams in the 6 years there, including a team involved in the preparation for FCA approval.<br/>
+He is a  problem solver with a pragmatic approach. With a keenness for Agile methodologies.<br/>
+Outside of Tech, he has a love of Rugby and has been known to dust off the rugby boots from time to time to play for the local team."
   - name: Kostas Konstantinidis
     anchor-name: kostas
     details-image: img/profiles/kostas.png
