@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+  {% include header.html
+    header-data=site.data.homepage.header
+  %}
+  <div class="container-fluid thank-you">
+    <h2>Thanks!</h2>
+    <h3>We'll be in touch</h3>
+  </div>
+  {% include footer.html %}
+</body>
+
+{% include scripts.html %}
+
+</html>
