@@ -205,6 +205,20 @@ ul.list-social-icons li:hover a i {
   color: $secondary-color;
 }
 
+.comment {
+  margin-left: 15px;
+  font-style: italic;
+  color: $teriary-color;
+}
+
+.comment::before {
+  content: open-quote;
+}
+
+.comment::after {
+  content: close-quote;
+}
+
 #footer {
   font-size: 1.6rem;
 }
