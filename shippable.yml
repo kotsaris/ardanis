@@ -1,8 +1,6 @@
 language: ruby
-rvm: 
+rvm:
   - 2.3.0
 script:
   - bundle install
-
-after_success :
-  - echo 'TODO: Deploy if #master'
+  - bundle exec rake test
