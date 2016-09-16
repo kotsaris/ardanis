@@ -6,5 +6,5 @@ task :build do
 end
 
 task :htmlproof do
-  sh('htmlproofer', './_site')
+  sh('htmlproofer', './_site', '--alt-ignore', '/(.*?)/', '--disable-external')
 end
