@@ -15,6 +15,9 @@ cd to the website folder and run
 ## Run
 - bundle exec jekyll serve --watch
 
+## Test
+- bundle exec rake test
+
 # How to contribute
 Fork the ardanis repo. Send pull requests for your changes
 
