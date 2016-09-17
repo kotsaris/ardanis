@@ -74,6 +74,7 @@ body {
 .navbar-default .navbar-toggle {
     border-color: white;
     color: white;
+    margin-right: 20px;
 }
 
 .navbar-default .nav > li > a.active {
@@ -90,7 +91,7 @@ body header.street-and-technology {
   background-image: url('../img/header-backgrounds/street-and-technology.jpg');
 }
 body header.meet-the-team {
- background-image: url('../img/header-backgrounds/meet-the-team.jpg'); 
+ background-image: url('../img/header-backgrounds/meet-the-team.jpg');
 }
 body header.cityscape {
   background-image: url('../img/header-backgrounds/cityscape.jpg');
@@ -290,6 +291,32 @@ ul.list-social-icons li:hover a i {
 @media(max-width:768px) {
   .featurette-heading {
       font-size: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+     padding-left: 20px;
+     padding-right: 20px;
+  }
+
+  div[class^="col-"] h3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .portfolio-suffix {
+    margin-top: 20px;
+  }
+
+  .summary-text,
+  .nav.navbar-nav.navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navbar-default .navbar-header .navbar-brand {
+    margin: 5px 20px;
   }
 }
 
@@ -408,7 +435,7 @@ ul.list-social-icons li:hover a i {
 @media(max-width:668px) {
     .featurette-image {
       width: 100%;
-      padding: 0 20% 20px 20%;
+      padding: 40px;
     }
 
     .featurette-divider {
