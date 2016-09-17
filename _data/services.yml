@@ -19,14 +19,13 @@ categories:
       <p class='comment'>We know the solution we want but don’t know how to build it.</p>
       <p class='comment'>Our product needs more modern features as it is getting outdated and losing popularity.</p>
       <p class='summary-text'>If any of the above sounded familiar then Ardanis can help you bring your vision to reality.
-      We are passionate about quality software development!  You can rest easy when working with us b
-      ecause we use the best practices and technologies to ensure that you get a solution that perfectly
+      We are passionate about quality software development!  You can rest easy when working with us because we use the best practices and technologies to ensure that you get a solution that perfectly
       meets your needs and will be scalable, robust and delivered promptly.</p>
       <h3>How do we help you?</h3>
-      <p class='summary-text'>Our technical skills and experience to help achieve your vision for your product.  You will be involved
-      in the entire process so you can easily observe the progress.  We use the Agile development process to
+      <p class='summary-text'>Our technical skills and experience will help achieve your vision for your product.  You will be involved
+      in the entire process so you can easily observe the progress.  We use the Agile Development process to
       ensure that you get the outcome you want.  Agile involves an ongoing series of demonstrations of the
-      project’s progress so your feedback identifies any issues we need to resolve early.  As the name
+      project’s progress so your feedback identifies any issues that need an early resolution.  As the name
       suggests, Agile is a flexible approach that allows changes to be incorporated quickly and seamlessly.
       It is important that the most suitable technologies are used for your product so that it is robust and
       good value.  Our experienced team will offer you expert advice and options targeted to your product.</p>"
@@ -39,7 +38,7 @@ categories:
     destination: services.html#engineering
     details-image: img/internal_serverroom.jpg
     details: "<h3>Do you spend more time on maintenance and bug fixing rather than developing new features?</h3>
-      <p>Whether you are building a new product or maintaining existing solutions there are a lot of techniques
+      <p>Whether you are building a new product or maintaining existing solutions there are many techniques
       you can use to make it easier and more efficient.  If you have said or heard comments similar to the
       following, we can help you:
       <p class='comment'>We dread releases!  We often have to rollback releases because of unexpected side effects.</p>
@@ -48,19 +47,17 @@ categories:
         rather working on new features or releases.</p>
       <p class='comment'>What the development team produces is not always aligned with what the business users wanted.</p>
       </ul>
-      <p class='summary-text'>If these sound familiar, don’t worry!  These are very common concerns in software development and there a
+      <p class='summary-text'>If these sound familiar, don’t worry!  These are very common concerns in software development and there are a
       number of convenient solutions.</p>
       <h3>How do we help you?</h3>
-      <p class='summary-text'>You can overcome issues like those by using some techniques that make development faster and more
-      reliable.  We can help you implement and adopt these techniques. Agile, code quality metrics, Test Driven
-      Development (TDD), Continuous Integration (CI) and Continuous Deployment (CD) are examples of techniques
-      that we can help you implement.  These techniques can make a radical improvement on your productivity.
-      These approaches promote the following:
-        <ul>
-        <li>Developers are more focussed</li>
-        <li>Stakeholders and developers communicate regularly</li>
-        <li>Product quality; fewer bugs, more robust</li>
-        <li>Releases become frequent and automatic (not as scary as it sounds!)</li>
+      <p class='summary-text'>We can help you implement and adopt techniques that make development
+      faster and more reliable, to overcome some of these issues. Agile, code quality metrics, Test Driven
+      Development (TDD), Continuous Integration (CI) and Continuous Deployment (CD) are examples what we can do to help you implement effective solutions.  These techniques can make a radical improvement on your productivity and will promote the following:
+      <ul>
+        <li>Developers will be more focussed</li>
+        <li>Stakeholders and developers will communicate regularly</li>
+        <li>Product quality; fewer bugs, will be more robust</li>
+        <li>Releases will become frequent and automatic (not as scary as it sounds!)</li>
         </ul>
       </p>"
 
@@ -74,7 +71,7 @@ categories:
     details-image: img/internal_vr.jpg
     details: "<h3>Need some developers or a technical specialist for your next project?</h3>
       <p>Need some extra people for a particular project? Or do you need a specialist for a particular
-      technology?  We may be able to help.  Our team is quite diverse and we like to think we have the technical
+      technology?  We will be able to help.  Our team is quite diverse and we have the technical
       resources to fill most roles you are looking for.  Whether you need a developer to help your team get
       through your backlog of work or you need an architect to work with your business and development teams to
-      design a great solution, we may have the ideal person for you.</p>"
+      design a great solution, we have the ideal person for you.</p>"
