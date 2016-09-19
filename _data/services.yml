@@ -38,7 +38,7 @@ categories:
     destination: services.html#engineering
     details-image: img/internal_serverroom.jpg
     details: "<h3>Do you spend more time on maintenance and bug fixing rather than developing new features?</h3>
-      <p class'summary-text'>Whether you are building a new product or maintaining existing solutions there are many techniques
+      <p class='summary-text'>Whether you are building a new product or maintaining existing solutions there are many techniques
       you can use to make it easier and more efficient.  If you have said or heard comments similar to the
       following, we can help you:
       <p class='comment'>We dread releases!  We often have to rollback releases because of unexpected side effects.</p>
@@ -70,7 +70,7 @@ categories:
     destination: services.html#resources
     details-image: img/internal_vr.jpg
     details: "<h3>Need some developers or a technical specialist for your next project?</h3>
-      <p class'summary-text'>Need some extra people for a particular project? Or do you need a specialist for a particular
+      <p class='summary-text'>Need some extra people for a particular project? Or do you need a specialist for a particular
       technology?  We will be able to help.  Our team is quite diverse and we have the technical
       resources to fill most roles you are looking for.  Whether you need a developer to help your team get
       through your backlog of work or you need an architect to work with your business and development teams to
