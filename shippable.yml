@@ -4,6 +4,3 @@ rvm:
 script:
   - bundle install
   - bundle exec rake test
-
-after_success :
-  - git push origin master:testdeploy
