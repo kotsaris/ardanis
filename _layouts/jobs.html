@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+  {% include header.html
+    header-data=site.data.team.header
+  %}
+  <div class="container-fluid thank-you">
+    <h2>We are hiring!</h2>
+    <hr/>
+    <h3>Junior Developer Role</h3>
+    <p>
+      Find out more information in the <a href="files/JuniorDeveloperRole.pdf">job spec</a>.
+    </p>
+    <br/>
+    <br/>
+  </div>
+  {% include footer.html %}
+</body>
+
+{% include scripts.html %}
+
+</html>
